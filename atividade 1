@@ -1,0 +1,11 @@
+#-*-cding:latin1-*-
+anodeNascimento = int(input("ANO DE NASCIMENTO"))
+anoAtual = int(input("ANO ATUAL"))
+
+resultado = anoAtual - anodeNascimento
+resultadodois = resultado * 365
+resultadotres = resultado * 12
+
+print(" IDADE EM ANOS: ", resultado)
+print("IDADE EM DIAS: ", resultadodois)
+print("IDADE EM MESES: ", resultadotres)
